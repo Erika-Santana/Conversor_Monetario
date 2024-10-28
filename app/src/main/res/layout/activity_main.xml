@@ -22,8 +22,8 @@
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite algo"
-        android:inputType="text"
+        android:hint="Digite aqui"
+        android:inputType="numberDecimal"
         android:textSize="16sp"
         android:padding="10dp"
         android:height="48dp"
@@ -34,25 +34,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/converterDolar_button"
-        android:text="Converter para dólar: "
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="@color/white" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/converterReal_button"
-        android:text="Converter para real: "
-        android:layout_weight="1"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="@color/white" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/converterDolar_button"
+            android:text="Converter para dólar: "
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/converterReal_button"
+            android:text="Converter para real: "
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
 
 
       </LinearLayout>
@@ -71,7 +72,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/mostra_resultado"
         android:textAlignment="center"
-        android:textColor="#C46FFF"
+        android:textColor="#E0B6FF"
         android:textSize="20dp"
         android:textFontWeight="@integer/material_motion_duration_long_1"/>
 
